@@ -1,0 +1,133 @@
+@import "../../../styles/settings.scss";
+
+.root {
+  .footerMenu {
+    background-color: #404040;
+    padding: 3rem 0;
+
+    .menuWrapper {
+      h6 {
+        color: white;
+        text-transform: uppercase;
+        margin: 0 0 1rem 0;
+      }
+
+      ul {
+        margin: 0 0 1.5rem 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+          a {
+            font-size: 14px;
+            line-height: 30px;
+            color: white;
+
+            &:hover {
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .bottomBar {
+    background-color: #ffa600;
+
+    :global(.container)> :global(.row) {
+      height: 95px;
+    }
+
+    .copyright {
+      p {
+        margin: 0;
+        color: black;
+        font-size: 14px;
+        line-height: 26px;
+      }
+    }
+
+    .socialMedia {
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+          display: inline-block;
+          margin-left: 1rem;
+
+          a {
+            color: black;
+            text-decoration: none;
+
+            &:hover {
+              color: red;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+Footer .menuBox {
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding: 15px;
+
+  img {
+    width: 100%
+  }
+}
+
+@media (max-width: 768px) {
+  Footer .menuBox {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 25px;
+
+    h6 {
+      white-space: nowrap;
+    }
+  }
+
+  .bottomBar {
+    .socialMedia {
+      max-width: 50%;
+      margin-right: 0;
+    }
+  }
+
+  .bottomBar .copyright {
+    font-size: 10px;
+    max-width: 50%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 440px) {
+  Footer .menuBox {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    padding: 15px;
+
+    img {
+      width: 50%;
+    }
+  }
+
+  .bottomBar {
+    .socialMedia {
+      min-width: 100%;
+      text-align: center !important;;
+    }
+  }
+
+  .bottomBar .copyright {
+    min-width: 100%;
+    order: 1;
+  }
+}
