@@ -1,0 +1,17 @@
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.box .imageBox {
+  flex: 2;
+}
+.box .imageBox img {
+  width: 80%;
+  height: 80%;
+}
+.box .descriptionBox {
+  flex: 2;
+}
+
+/*# sourceMappingURL=ProjectBox.module.css.map */

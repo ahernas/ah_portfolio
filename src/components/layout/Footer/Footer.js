@@ -3,6 +3,14 @@ import PropTypes from 'prop-types';
 
 import styles from './Footer.module.scss';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faTwitter,
+  faFacebookF,
+  faYoutube,
+  faLinkedinIn,
+} from '@fortawesome/free-brands-svg-icons';
+
 
 const Footer = ({ }) => (
   <footer className={styles.root}>
@@ -98,38 +106,38 @@ const Footer = ({ }) => (
             </p>
           </div>
           <div className={'col-sm-6 col-md-4 text-right ' + styles.socialMedia}>
-            {/*<ul>*/}
-            {/*  <li>*/}
-            {/*    <a href='/#'>*/}
-            {/*      <FontAwesomeIcon icon={faTwitter}>Twitter</FontAwesomeIcon>*/}
-            {/*    </a>*/}
-            {/*  </li>*/}
-            {/*  <li>*/}
-            {/*    <a href='/#'>*/}
-            {/*      <FontAwesomeIcon icon={faFacebookF}>Facebook</FontAwesomeIcon>*/}
-            {/*    </a>*/}
-            {/*  </li>*/}
-            {/*  <li>*/}
-            {/*    <a href='/#'>*/}
-            {/*      <FontAwesomeIcon icon={faYoutube}>YouTube</FontAwesomeIcon>*/}
-            {/*    </a>*/}
-            {/*  </li>*/}
-            {/*  <li>*/}
-            {/*    <a href='/#'>*/}
-            {/*      <FontAwesomeIcon icon={faGooglePlusG}>Google Plus</FontAwesomeIcon>*/}
-            {/*    </a>*/}
-            {/*  </li>*/}
-            {/*  <li>*/}
-            {/*    <a href='/#'>*/}
-            {/*      <FontAwesomeIcon icon={faLinkedinIn}>LinkedIn</FontAwesomeIcon>*/}
-            {/*    </a>*/}
-            {/*  </li>*/}
-            {/*  <li>*/}
-            {/*    <a href='/#'>*/}
-            {/*      <FontAwesomeIcon icon={faPinterestP}>Pinterest</FontAwesomeIcon>*/}
-            {/*    </a>*/}
-            {/*  </li>*/}
-            {/*</ul>*/}
+            <ul>
+              <li>
+                <a href='/#'>
+                  <FontAwesomeIcon icon={faTwitter}>Twitter</FontAwesomeIcon>
+                </a>
+              </li>
+              <li>
+                <a href='/#'>
+                  <FontAwesomeIcon icon={faFacebookF}>Facebook</FontAwesomeIcon>
+                </a>
+              </li>
+              <li>
+                <a href='/#'>
+                  <FontAwesomeIcon icon={faYoutube}>YouTube</FontAwesomeIcon>
+                </a>
+              </li>
+              {/*<li>*/}
+              {/*  <a href='/#'>*/}
+              {/*    <FontAwesomeIcon icon={faGooglePlusG}>Google Plus</FontAwesomeIcon>*/}
+              {/*  </a>*/}
+              {/*</li>*/}
+              <li>
+                <a href='/#'>
+                  <FontAwesomeIcon icon={faLinkedinIn}>LinkedIn</FontAwesomeIcon>
+                </a>
+              </li>
+              {/*<li>*/}
+              {/*  <a href='/#'>*/}
+              {/*    <FontAwesomeIcon icon={faPinterestP}>Pinterest</FontAwesomeIcon>*/}
+              {/*  </a>*/}
+              {/*</li>*/}
+            </ul>
           </div>
         </div>
       </div>
