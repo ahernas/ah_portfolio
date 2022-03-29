@@ -1,27 +1,31 @@
-.photo {
+.box {
   height: 500px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
-  padding-right: 30px;
 }
 
 .title1 {
-  font-size: 35px;
-  color: black;
-  text-align: right;
-  font-weight: bold;
+  font-size: 55px;
+  color: #111111;
+  font-weight: 900;
+  padding-bottom: 24px;
+  font-family: "MS Reference Sans Serif";
 }
 
 .title2 {
-  color: red;
+  color: #111111;
+  font-size: 30px;
+  font-family: "RomanS";
+  font-weight: 900;
+}
+
+.title3 {
+  color: #a4a4a4;
+  font-size: 25px;
+  font-family: "RomanS";
   font-weight: bold;
-  font-size: 40px;
 }
 
 /*# sourceMappingURL=Header.module.css.map */

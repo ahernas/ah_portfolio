@@ -1,25 +1,47 @@
-.photo {
+@import "../../../styles/settings.scss";
+
+//.photo {
+//  height: 500px;
+//  background-size: cover;
+//  background-position: center;
+//  background-repeat: no-repeat;
+//  background-color: white;
+//  display: flex;
+//  flex-direction: column;
+//  align-items: flex-end;
+//  justify-content: center;
+//  padding-right: 30px;
+//}
+
+.box {
   height: 500px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
-  padding-right: 30px;
 }
 
 .title1 {
-  font-size: 35px;
-  color: black;
-  text-align: right;
-  font-weight: bold;
+  font-size: 55px;
+  color: $color-top;
+  font-weight: 900;
+  padding-bottom: $base-padding;
+  font-family: $font-title;
 }
 
 .title2 {
-  color: red;
+  color: $color-top;
+  font-size: 30px;
+  font-family: $font-text;
+  font-weight: 900;
+
+}
+
+.title3 {
+  color: $color-grey-text;
+  font-size: 25px;
+  font-family: $font-text;
   font-weight: bold;
-  font-size: 40px;
+
+
 }
