@@ -1,0 +1,22 @@
+.boxTitle {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: #dddddd;
+}
+
+.title {
+  color: #a4a4a4;
+  text-transform: uppercase;
+  padding: 0 50px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+/*# sourceMappingURL=AboutTitle.module.css.map */
