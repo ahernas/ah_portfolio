@@ -1,27 +1,35 @@
-.box {
-  height: 500px;
+.headerBox {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  height: 600px;
+}
+.headerBox .imageBox img {
+  max-height: 600px;
+}
+.headerBox .textBox {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
+  height: 100%;
 }
-
-.title1 {
+.headerBox .textBox .title1 {
   font-size: 55px;
   color: #111111;
   font-weight: 900;
   padding-bottom: 24px;
   font-family: "MS Reference Sans Serif";
 }
-
-.title2 {
+.headerBox .textBox .title2 {
   color: #111111;
   font-size: 30px;
   font-family: "RomanS";
   font-weight: 900;
 }
-
-.title3 {
+.headerBox .textBox .title3 {
   color: #a4a4a4;
   font-size: 25px;
   font-family: "RomanS";

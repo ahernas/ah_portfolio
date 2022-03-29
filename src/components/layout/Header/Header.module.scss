@@ -1,44 +1,45 @@
 @import "../../../styles/settings.scss";
 
-//.photo {
-//  height: 500px;
-//  background-size: cover;
-//  background-position: center;
-//  background-repeat: no-repeat;
-//  background-color: white;
-//  display: flex;
-//  flex-direction: column;
-//  align-items: flex-end;
-//  justify-content: center;
-//  padding-right: 30px;
-//}
-
-.box {
-  height: 500px;
+.headerBox {
   display: flex;
-  flex-direction: column;
+  flex: 1;
+  flex-direction: row;
   align-items: flex-end;
   justify-content: center;
-}
+  height: 600px;
 
-.title1 {
-  font-size: 55px;
-  color: $color-top;
-  font-weight: 900;
-  padding-bottom: $base-padding;
-  font-family: $font-title;
-}
+  .imageBox {
+    img {
+    max-height: 600px;
+    }
+  }
+  .textBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100%;
 
-.title2 {
-  color: $color-top;
-  font-size: 30px;
-  font-family: $font-text;
-  font-weight: 900;
-}
+    .title1 {
+      font-size: 55px;
+      color: $color-top;
+      font-weight: 900;
+      padding-bottom: $base-padding;
+      font-family: $font-title;
+    }
 
-.title3 {
-  color: $color-grey-text;
-  font-size: 25px;
-  font-family: $font-text;
-  font-weight: bold;
+    .title2 {
+      color: $color-top;
+      font-size: 30px;
+      font-family: $font-text;
+      font-weight: 900;
+    }
+
+    .title3 {
+      color: $color-grey-text;
+      font-size: 25px;
+      font-family: $font-text;
+      font-weight: bold;
+    }
+  }
 }
