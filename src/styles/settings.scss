@@ -1,0 +1,39 @@
+$base-size: 14px;
+$base-padding: 24px;
+
+// COLORS
+$color-top: #111111;
+$color-white: #c1e0df;
+$color-grey-light: #fafafa;
+$color-grey-medium: #f5f5f5;
+$color-grey-dark: #f2f3f5;
+$color-grey-text: #dddddd;
+
+
+
+//variables
+$background-color-transition: 250ms;
+$color-transition: 250ms;
+$border-color-transition: 250ms;
+
+//SHADOWS
+%baseBoxShadow {
+  box-shadow: 5px 5px 10px;
+  border: 1px solid $color-grey-text;
+}
+//HOVER ANIMATIONS
+%hoverAnimation {
+  transition: background-color $background-color-transition linear, color $color-transition linear, border-color $border-color-transition linear;
+  transform: translate(0, 0);
+}
+
+%backgroundAnimatable {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  content: '';
+  transition: opacity 1.5s ease-in-out;
+}

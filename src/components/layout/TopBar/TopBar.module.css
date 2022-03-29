@@ -1,12 +1,17 @@
+.list ul li a:hover {
+  transition: background-color 250ms linear, color 250ms linear, border-color 250ms linear;
+  transform: translate(0, 0);
+}
+
 .root {
-  background-color: #404040;
+  background-color: #111111;
 }
 
 .boxTopBar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 50px;
+  height: 80px;
 }
 
 .list ul {
@@ -23,14 +28,15 @@
   margin-right: 15px;
 }
 .list ul li a {
+  font-family: "RomanS";
+  letter-spacing: 2px;
   color: white;
-  font-size: 14px;
-  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
 }
-
-.logo img {
-  width: 200px;
-  height: 150px;
+.list ul li a:hover {
+  color: #dddddd;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=TopBar.module.css.map */

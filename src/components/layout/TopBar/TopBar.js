@@ -10,13 +10,16 @@ const TopBar = () => (
       <div className={'d-flex align-items-center ' + styles.list}>
         <ul>
           <li>
-            <a href="/">O mnie</a>
+            <a href="/">about</a>
           </li>
           <li>
-            <a href="/">Projekty</a>
+            <a href="/">portfolio</a>
           </li>
           <li>
-            <a href="/">Kontakt</a>
+            <a href="/">skills</a>
+          </li>
+          <li>
+            <a href="/">contact</a>
           </li>
         </ul>
       </div>

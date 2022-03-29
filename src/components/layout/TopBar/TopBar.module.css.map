@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["TopBar.module.scss"],"names":[],"mappings":"AAEA;EACE;;;AAEF;EACE;EACA;EACA;EACA;;;AAGA;EACE;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;;AAEA;EACE;EACA;EACA;;;AAQN;EACE;EACA","file":"TopBar.module.css"}
+{"version":3,"sourceRoot":"","sources":["../../../styles/settings.scss","TopBar.module.scss"],"names":[],"mappings":"AAwBA;EACE;EACA;;;ACxBF;EACE,kBDCU;;;ACCZ;EACE;EACA;EACA;EACA;;;AAGA;EACE;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;EACA;;AAEA;EACE,ODxBQ;ECyBR","file":"TopBar.module.css"}

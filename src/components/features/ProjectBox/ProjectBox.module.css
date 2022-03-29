@@ -1,3 +1,12 @@
+.root {
+  box-shadow: 5px 5px 10px;
+  border: 1px solid #dddddd;
+}
+
+.root {
+  background-color: #fafafa;
+}
+
 .box {
   display: flex;
   align-items: center;

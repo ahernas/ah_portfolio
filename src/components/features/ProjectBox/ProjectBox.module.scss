@@ -1,5 +1,8 @@
 @import "../../../styles/settings.scss";
-
+.root {
+  background-color: $color-grey-light;
+  @extend %baseBoxShadow;
+}
 .box {
   display: flex;
   align-items: center;
