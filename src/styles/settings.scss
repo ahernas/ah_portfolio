@@ -1,9 +1,10 @@
 $base-size: 14px;
 $base-padding: 24px;
+$base-padding-bottom: 50px;
 
 // COLORS
 $color-top: #111111;
-$color-white: #c1e0df;
+$color-white: #ffffff;
 $color-grey-light: #fafafa;
 $color-grey-medium: #f5f5f5;
 $color-grey-dark: #f2f3f5;
@@ -15,6 +16,11 @@ $color-grey-line: #dddddd;
 
 $font-text: "RomanS";
 $font-title: "MS Reference Sans Serif";
+
+%font-text {
+  font-family: $font-text;
+  font-weight: bold;
+}
 
 //variables
 $background-color-transition: 250ms;

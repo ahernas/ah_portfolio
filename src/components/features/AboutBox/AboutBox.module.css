@@ -1,3 +1,19 @@
+.description {
+  font-family: "RomanS";
+  font-weight: bold;
+}
 
+.root {
+  border: 1px solid #e6e6e6;
+}
+
+.root {
+  background-color: #f2f3f5;
+}
+
+.description {
+  text-align: center;
+  padding-bottom: 50px;
+}
 
 /*# sourceMappingURL=AboutBox.module.css.map */

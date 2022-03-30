@@ -1,0 +1,12 @@
+@import "../../../styles/settings.scss";
+
+.root {
+  background-color: $color-grey-dark;
+  @extend %baseBoxShadow;
+}
+
+.description {
+  @extend %font-text;
+  text-align: center;
+  padding-bottom: $base-padding-bottom;
+}
