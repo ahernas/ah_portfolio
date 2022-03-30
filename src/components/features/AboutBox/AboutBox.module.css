@@ -3,7 +3,7 @@
   font-weight: bold;
 }
 
-.root {
+.image, .root {
   border: 1px solid #e6e6e6;
 }
 
@@ -11,9 +11,31 @@
   background-color: #f2f3f5;
 }
 
-.description {
-  text-align: center;
+.box {
+  display: flex;
+  flex-direction: row;
   padding-bottom: 50px;
+}
+
+.description {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  padding: 24px;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  background-color: white;
+  padding: 20px 0;
+}
+.image img {
+  max-width: 300px;
 }
 
 /*# sourceMappingURL=AboutBox.module.css.map */

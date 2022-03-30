@@ -4,9 +4,31 @@
   background-color: $color-grey-dark;
   @extend %baseBoxShadow;
 }
+.box {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: $base-padding-bottom;
 
+}
 .description {
   @extend %font-text;
-  text-align: center;
-  padding-bottom: $base-padding-bottom;
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  padding: $base-padding;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  background-color: white;
+  padding: 20px 0;
+  @extend %baseBoxShadow;
+  img {
+    max-width: 300px;
+  }
 }

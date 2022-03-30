@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../../styles/settings.scss","AboutBox.module.scss"],"names":[],"mappings":"AAmBA;EACE,aAJU;EAKV;;;AASF;EACE;;;AC7BF;EACE,kBDMgB;;;ACFlB;EAEE;EACA,gBDRoB","file":"AboutBox.module.css"}
+{"version":3,"sourceRoot":"","sources":["../../../styles/settings.scss","AboutBox.module.scss"],"names":[],"mappings":"AAmBA;EACE,aAJU;EAKV;;;AASF;EACE;;;AC7BF;EACE,kBDMgB;;;ACHlB;EACE;EACA;EACA,gBDPoB;;;ACUtB;EAEE;EACA;EACA;EACA;EACA;EACA,SDlBa;;;ACqBf;EACE;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE","file":"AboutBox.module.css"}
