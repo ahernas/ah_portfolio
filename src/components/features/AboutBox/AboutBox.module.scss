@@ -25,10 +25,11 @@
   align-items: center;
   justify-content: center;
   flex: 1;
-  background-color: white;
-  padding: 20px 0;
-  @extend %baseBoxShadow;
+
   img {
     max-width: 300px;
+    background-color: white;
+    padding: 15px;
+    @extend %baseBoxShadow;
   }
 }
