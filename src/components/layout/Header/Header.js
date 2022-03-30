@@ -5,7 +5,7 @@ const Header = () => (
   <div className={styles.root}>
     <div className={'container ' + styles.headerBox}>
       <div className={styles.imageBox}>
-        <img src='https://i.postimg.cc/xT6gnM7h/image-girl-min.png' alt="image of girl"/>
+        <img src='https://i.postimg.cc/bwM6r5xn/image-girl-v2-2-min.png' alt="image of girl"/>
       </div>
       <div className={styles.textBox}>
         <div className={styles.title1}>&lt;coder&gt;</div>
