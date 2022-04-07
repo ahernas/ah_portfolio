@@ -17,7 +17,7 @@
   height: 100%;
 }
 .headerBox .textBox .title1 {
-  font-size: 55px;
+  font-size: 70px;
   color: #111111;
   font-weight: 900;
   padding-bottom: 24px;
@@ -25,13 +25,13 @@
 }
 .headerBox .textBox .title2 {
   color: #111111;
-  font-size: 30px;
+  font-size: 35px;
   font-family: "RomanS";
   font-weight: 900;
 }
 .headerBox .textBox .title3 {
   color: #a4a4a4;
-  font-size: 25px;
+  font-size: 30px;
   font-family: "RomanS";
   font-weight: bold;
 }
