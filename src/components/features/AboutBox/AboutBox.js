@@ -5,19 +5,27 @@ import RunningHead from '../../common/RunningHead/RunningHead';
 
 const AboutBox = () => (
   <div className={styles.root}>
-    <div className='container'>
-      <RunningHead title={'about'}/>
-      <div className={styles.box}>
+    <div className={'container ' + styles.aboutBox}>
+      <div className={styles.textBox}>
+        <RunningHead className={styles.title} title={'about'}/>
         <div className={styles.description}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </div>
-        <div className={styles.image}>
-          <img src='https://i.postimg.cc/k51hCZBL/IMG-20211202-165752-min.jpg' alt="dog in front of the computer "/>
+          I&#39;m a front-end developer based in Wroclaw, Poland. Since 2020, I have enjoyed writing code and solving problems.
+          I have successfully completed Bootcamp Web Developer Plus run by Kodilla. My dog help me with code every day.
         </div>
       </div>
-
+      <div className={styles.imageWrapper}>
+        <div className={styles.leftSide}>
+          <img src='https://i.postimg.cc/1z5zRdtS/IMG-20220215-171231-min.jpg' alt='photo of dog'/>
+          <img src='https://i.postimg.cc/k5BdpPG2/IMG-20220202-112842-min.jpg' alt='photo of girl and dog'/>
+        </div>
+        <div className={styles.rightSide}>
+          <img src='https://i.postimg.cc/52jF2DTJ/IMG-20220406-152236-min.jpg' alt="dog in front of the computer "/>
+        </div>
+      </div>
     </div>
+
   </div>
+
 );
 
 export default AboutBox;

@@ -1,41 +1,46 @@
-.description {
+.aboutBox .description {
   font-family: "RomanS";
   font-weight: bold;
 }
 
-.image img, .root {
+.imageWrapper img, .root {
   border: 1px solid #e6e6e6;
+  background-color: #ffffff;
+  border-radius: 10px;
 }
 
 .root {
   background-color: #f2f3f5;
 }
 
-.box {
+.aboutBox {
   display: flex;
   flex-direction: row;
-  padding-bottom: 50px;
-}
-
-.description {
-  flex: 2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: start;
   padding: 24px;
 }
-
-.image {
+.aboutBox .description {
+  text-align: start;
+  padding-right: 20px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex: 1;
+  width: 80%;
+  height: 80%;
 }
-.image img {
-  max-width: 300px;
-  background-color: white;
-  padding: 15px;
+
+.imageWrapper {
+  display: flex;
+  flex-direction: row;
+}
+.imageWrapper img {
+  padding: 10px;
+}
+.imageWrapper .leftSide img {
+  max-height: 200px;
+  margin: 2.5px;
+}
+.imageWrapper .rightSide img {
+  max-height: 400px;
+  margin: 5px;
 }
 
 /*# sourceMappingURL=AboutBox.module.css.map */

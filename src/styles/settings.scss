@@ -30,6 +30,8 @@ $border-color-transition: 250ms;
 //SHADOWS
 %baseBoxShadow {
   border: 1px solid $color-grey-border;
+  background-color: $color-white;
+  border-radius: 10px;
 }
 //HOVER ANIMATIONS
 %hoverAnimation {

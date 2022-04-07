@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../../styles/settings.scss","ProjectBox.module.scss"],"names":[],"mappings":"AA8BA;EACE;;;AC9BF;EACE,kBDIY;;;ACDd;EACE;EACA;EACA;;AACA;EAEE;;AACA;EACE;EACA;;AAGJ;EACE","file":"ProjectBox.module.css"}
+{"version":3,"sourceRoot":"","sources":["../../../styles/settings.scss","ProjectBox.module.scss"],"names":[],"mappings":"AA8BA;EACE;EACA,kBA1BY;EA2BZ;;;AChCF;EACE,kBDIY;;;ACDd;EACE;EACA;EACA;;AACA;EAEE;;AACA;EACE;EACA;;AAGJ;EACE","file":"ProjectBox.module.css"}
