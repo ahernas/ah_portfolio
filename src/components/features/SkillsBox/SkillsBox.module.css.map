@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../../styles/settings.scss","SkillsBox.module.scss"],"names":[],"mappings":"AAqCA;EACE;EACA;;;ACrCF;EACE,kBDGY","file":"SkillsBox.module.css"}
+{"version":3,"sourceRoot":"","sources":["../../../styles/settings.scss","SkillsBox.module.scss"],"names":[],"mappings":"AAqCA;EACE;EACA;;;ACrCF;EACE,kBDIiB;ECFjB;;;AAGF;EACE,gBDRa;;;ACWf;EACE,aDZa;;;ACef;EACE;EACA;EACA;EACA;EACA","file":"SkillsBox.module.css"}

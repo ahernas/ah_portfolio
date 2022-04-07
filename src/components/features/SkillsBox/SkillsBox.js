@@ -2,8 +2,8 @@ import React from 'react';
 import styles from './SkillsBox.module.css';
 
 import TitleBox from '../../common/TitleBox/TitleBox';
+import SkillBox from '../../common/SkillBox/SkillBox';
 import RunningHead from '../../common/RunningHead/RunningHead';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faBootstrap,
   faCss3,
@@ -22,31 +22,32 @@ const SkillsBox = () => (
     <div className='container'>
       <RunningHead title={'skills'}/>
       <div className={styles.frontendSkills}>
-        <TitleBox className={styles.title} text={'front-end'}></TitleBox>
+        <TitleBox text={'front-end'}></TitleBox>
         <div className={styles.iconBox}>
-          <FontAwesomeIcon icon={faHtml5} />
-          <FontAwesomeIcon icon={faCss3} />
-          <FontAwesomeIcon icon={faSass} />
-          <FontAwesomeIcon icon={faBootstrap} />
-          <FontAwesomeIcon icon={faJs} />
-          <FontAwesomeIcon icon={faReact} />
+          <SkillBox iconName={faHtml5} skillName={'Html'}/>
+          <SkillBox iconName={faCss3} skillName={'css'}/>
+          <SkillBox iconName={faBootstrap} skillName={'bootstrap'}/>
+          <SkillBox iconName={faJs} skillName={'javascript'}/>
+          <SkillBox iconName={faReact} skillName={'react&redux'}/>
+          <SkillBox iconName={faSass} skillName={'sass'}/>
         </div>
       </div>
       <div className={styles.backendSkills}>
-        <TitleBox className={styles.title} text={'back-end'}></TitleBox>
+        <TitleBox text={'back-end'}></TitleBox>
         <div className={styles.iconBox}>
-          <FontAwesomeIcon icon={faNodeJs}/>
-          <FontAwesomeIcon icon={faEnvira}/>
+          <SkillBox iconName={faNodeJs} skillName={'node js'}/>
+          <SkillBox iconName={faEnvira} skillName={'mongo db'}/>
         </div>
       </div>
       <div className={styles.tools}>
-        <TitleBox className={styles.title} text={'tools'}></TitleBox>
+        <TitleBox text={'tools'}></TitleBox>
         <div className={styles.iconBox}>
-          <FontAwesomeIcon icon={faGit}/>
-          <FontAwesomeIcon icon={faNpm}/>
-          <FontAwesomeIcon icon={faYarn}/>
-          <FontAwesomeIcon icon={faJira}/>
-          <FontAwesomeIcon icon={faSlack}/>
+          <SkillBox iconName={faGit} skillName={'git'}/>
+          <SkillBox iconName={faNpm} skillName={'npm'}/>
+          <SkillBox iconName={faYarn} skillName={'yarn'}/>
+          <SkillBox iconName={faJira} skillName={'jira'}/>
+          <SkillBox iconName={faSlack} skillName={'slack'}/>
+
         </div>
       </div>
 

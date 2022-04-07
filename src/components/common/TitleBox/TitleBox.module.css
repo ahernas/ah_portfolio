@@ -3,6 +3,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 24px 0;
 }
 .box .line {
   height: 2px;

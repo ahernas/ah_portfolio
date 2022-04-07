@@ -1,7 +1,25 @@
 @import "../../../styles/settings.scss";
 
 .root {
-  background-color: $color-white;
+  background-color: $color-grey-light;
   @extend %baseBorderShadow;
-
+  padding: $base-padding 0;
 }
+
+.tools {
+  padding-bottom: $base-padding;
+}
+
+.frontendSkills {
+  padding-top: $base-padding;
+}
+
+.iconBox {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+

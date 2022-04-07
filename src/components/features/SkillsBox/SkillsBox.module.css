@@ -4,7 +4,24 @@
 }
 
 .root {
-  background-color: #ffffff;
+  background-color: #fafafa;
+  padding: 24px 0;
+}
+
+.tools {
+  padding-bottom: 24px;
+}
+
+.frontendSkills {
+  padding-top: 24px;
+}
+
+.iconBox {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=SkillsBox.module.css.map */
