@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"SkillsBox.module.css"}
+{"version":3,"sourceRoot":"","sources":["SkillsBox.module.scss","../../../styles/settings.scss"],"names":[],"mappings":"AAEA;EACE,kBCMgB","file":"SkillsBox.module.css"}

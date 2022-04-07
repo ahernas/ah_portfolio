@@ -1,0 +1,22 @@
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.box .line {
+  height: 2px;
+  width: 100%;
+  background-color: #a4a4a4;
+}
+.box .text {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  font-family: "RomanS";
+  font-weight: 900;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=TitleBox.module.css.map */
