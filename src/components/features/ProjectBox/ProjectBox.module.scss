@@ -1,7 +1,7 @@
 @import "../../../styles/settings.scss";
 .root {
-  background-color: $color-white;
-  @extend %baseBoxShadow;
+  background-color: $color-grey-medium;
+  @extend %baseBorderShadow;
 }
 .box {
   display: flex;

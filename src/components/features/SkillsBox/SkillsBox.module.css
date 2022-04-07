@@ -1,5 +1,10 @@
 .root {
-  background-color: #f2f3f5;
+  border: 1px solid #e6e6e6;
+  box-shadow: 2px 4px 10px 4px #a4a4a4;
+}
+
+.root {
+  background-color: #ffffff;
 }
 
 /*# sourceMappingURL=SkillsBox.module.css.map */

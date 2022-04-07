@@ -27,12 +27,18 @@ $background-color-transition: 250ms;
 $color-transition: 250ms;
 $border-color-transition: 250ms;
 
-//SHADOWS
-%baseBoxShadow {
+//BORDER
+%baseBorderImage {
   border: 1px solid $color-grey-border;
   background-color: $color-white;
   border-radius: 10px;
 }
+
+//SHADOWS
+%baseBorderShadow {
+  border: 1px solid $color-grey-border;
+  box-shadow: 2px 4px 10px 4px $color-grey-text;}
+
 //HOVER ANIMATIONS
 %hoverAnimation {
   transition: background-color $background-color-transition linear, color $color-transition linear, border-color $border-color-transition linear;

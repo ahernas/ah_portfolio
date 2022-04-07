@@ -1,5 +1,7 @@
 @import "../../../styles/settings.scss";
 
 .root {
-  background-color: $color-grey-dark;
+  background-color: $color-white;
+  @extend %baseBorderShadow;
+
 }

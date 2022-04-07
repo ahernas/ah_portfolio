@@ -34,7 +34,7 @@
 
   .bottomBar {
     background-color: $color-grey-light;
-    @extend %baseBoxShadow;
+    @extend %baseBorderShadow;
 
     :global(.container)> :global(.row) {
       height: 95px;
