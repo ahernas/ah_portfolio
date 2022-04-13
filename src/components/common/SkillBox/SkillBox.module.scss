@@ -1,6 +1,7 @@
 @import "../../../styles/settings.scss";
 
 .box {
+  min-width: 220px;
   margin: 10px;
   padding: $base-padding 35px;
   @extend %baseBorderImage;
@@ -8,14 +9,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  @extend %baseBorderShadow;
+
 
   .icon {
-    font-size: 80px;
+    font-size: 60px;
     color: $color-grey-text;
   }
 
   .text {
-    font-size: 20px;
+    font-size: 18px;
     font-family: $font-text;
     font-weight: 900;
     padding-top: $base-padding;

@@ -1,19 +1,14 @@
 .root {
-  border: 1px solid #e6e6e6;
-  box-shadow: 2px 4px 10px 4px #a4a4a4;
-}
-
-.root {
   background-color: #fafafa;
-  padding: 24px 0;
+  padding: 80px 0;
 }
 
 .tools {
   padding-bottom: 24px;
 }
 
-.frontendSkills {
-  padding-top: 24px;
+.frontendSkills, .backendSkills, .tools {
+  padding-top: 40px;
 }
 
 .iconBox {

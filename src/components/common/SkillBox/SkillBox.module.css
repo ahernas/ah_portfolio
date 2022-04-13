@@ -5,6 +5,12 @@
 }
 
 .box {
+  border: 1px solid #e6e6e6;
+  box-shadow: 2px 4px 10px 4px #a4a4a4;
+}
+
+.box {
+  min-width: 220px;
   margin: 10px;
   padding: 24px 35px;
   display: flex;
@@ -13,11 +19,11 @@
   justify-content: center;
 }
 .box .icon {
-  font-size: 80px;
+  font-size: 60px;
   color: #a4a4a4;
 }
 .box .text {
-  font-size: 20px;
+  font-size: 18px;
   font-family: "RomanS";
   font-weight: 900;
   padding-top: 24px;

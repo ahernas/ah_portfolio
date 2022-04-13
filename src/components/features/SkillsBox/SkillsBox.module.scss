@@ -2,16 +2,15 @@
 
 .root {
   background-color: $color-grey-light;
-  @extend %baseBorderShadow;
-  padding: $base-padding 0;
+  padding: 80px 0;
 }
 
 .tools {
   padding-bottom: $base-padding;
 }
 
-.frontendSkills {
-  padding-top: $base-padding;
+.frontendSkills, .backendSkills, .tools {
+  padding-top: 40px;
 }
 
 .iconBox {

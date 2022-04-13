@@ -2,14 +2,12 @@
 
 .root {
   background-color: $color-grey-dark;
-  @extend %baseBorderShadow;
 }
 
 .aboutBox {
   display: flex;
   flex-direction: row;
-  padding: $base-padding;
-
+  padding: 80px 0;
 
   .title {
   }
@@ -33,6 +31,8 @@
   img {
     padding: 10px;
     @extend %baseBorderImage;
+    @extend %baseBorderShadow;
+
   }
 
   .leftSide {
