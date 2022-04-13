@@ -13,7 +13,7 @@ const SkillBox = (props) => (
 );
 
 SkillBox.propTypes = {
-  iconName: PropTypes.node,
+  iconName: PropTypes.object,
   skillName: PropTypes.node,
 };
 
