@@ -1,11 +1,14 @@
 @import "../../../styles/settings.scss";
 
+.root {
+  background-color: $color-grey-dark;
+}
+
 .headerBox {
   display: flex;
   flex: 1;
   flex-direction: row;
-  align-items: flex-end;
-  justify-content: center;
+  justify-content: space-around;
   height: 600px;
 
   .imageBox {
@@ -16,12 +19,12 @@
   .textBox {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: center;
     height: 100%;
 
     .title1 {
-      font-size: 70px;
+      font-size: 80px;
       color: $color-top;
       font-weight: 900;
       padding-bottom: $base-padding;
@@ -30,16 +33,16 @@
 
     .title2 {
       color: $color-top;
-      font-size: 35px;
-      font-family: $font-text;
-      font-weight: 900;
+      font-size: 55px;
+      font-family: $font-title;
+      font-weight: 700;
+      letter-spacing: 2px;
     }
 
     .title3 {
       color: $color-grey-text;
-      font-size: 30px;
-      font-family: $font-text;
-      font-weight: bold;
+      font-size: 40px;
+      font-family: $font-title;
     }
   }
 }
