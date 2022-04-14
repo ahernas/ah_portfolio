@@ -25,13 +25,9 @@
 .imageWrapper {
   display: flex;
   flex-direction: row;
-
-  img {
-    padding: 10px;
-    @extend %baseBorderImage;
-    @extend %baseBorderShadow;
-
-  }
+  padding: 5px;
+  @extend %baseBorderImage;
+  @extend %baseBorderShadow;
 
   .leftSide {
     img {

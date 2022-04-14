@@ -3,13 +3,13 @@
   font-weight: bold;
 }
 
-.imageWrapper img {
+.imageWrapper {
   border: 1px solid #e6e6e6;
   background-color: #ffffff;
   border-radius: 10px;
 }
 
-.imageWrapper img {
+.imageWrapper {
   border: 1px solid #e6e6e6;
   box-shadow: 2px 4px 10px 4px #a4a4a4;
 }
@@ -37,9 +37,7 @@
 .imageWrapper {
   display: flex;
   flex-direction: row;
-}
-.imageWrapper img {
-  padding: 10px;
+  padding: 5px;
 }
 .imageWrapper .leftSide img {
   max-height: 200px;
