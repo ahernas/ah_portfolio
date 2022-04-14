@@ -14,8 +14,8 @@ const HomePage = () => (
     <TopBar/>
     <Header/>
     <AboutBox/>
-    <SkillsBox/>
     <ProjectBox/>
+    <SkillsBox/>
     <Footer/>
   </div>
 );
