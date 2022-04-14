@@ -28,6 +28,13 @@
     font-family: $font-text;
     font-weight: 900;
 
+    .link {
+      padding-top: $base-padding;
+      display: flex;
+      flex-direction: column;
+    a {
+    }
+    }
   }
 
   .name {

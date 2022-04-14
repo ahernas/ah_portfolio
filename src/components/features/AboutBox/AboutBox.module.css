@@ -24,12 +24,13 @@
   padding: 80px 0;
 }
 .aboutBox .description {
-  text-align: start;
   padding-right: 20px;
   display: flex;
   align-items: center;
+  text-align: justify;
   width: 80%;
   height: 80%;
+  font-size: 20px;
 }
 
 .imageWrapper {
