@@ -24,20 +24,32 @@
   flex: 2;
 }
 .box .imageBox img {
-  width: 80%;
-  height: 80%;
+  width: 100%;
+  height: auto;
   padding: 10px;
 }
 .box .description {
+  font-size: 20px;
   width: 80%;
+  height: 100%;
   flex: 2;
   font-family: "RomanS";
   font-weight: 900;
+  padding-left: 50px;
 }
 .box .description .link {
   padding-top: 24px;
   display: flex;
   flex-direction: column;
+}
+.box .description .link a {
+  text-decoration: none;
+  color: #111111;
+  text-transform: uppercase;
+  font-family: "MS Reference Sans Serif";
+}
+.box .description .link a:hover {
+  color: #a4a4a4;
 }
 .box .name {
   flex: 2;

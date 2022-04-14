@@ -22,11 +22,12 @@ const ProjectBox = () => (
         </div>
         <div className={styles.description}>
           <div className={styles.text}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            The project was created in order to learn page coding.<br/>Working tools: Git, GitHub, MongoDB, Express, MongoDB Atlas, Mongoose, Heroku
+            Interface building library: React.
           </div>
           <div className={styles.link}>
-            <a href='//github.com/ahernas/Shop-myplants'>github</a>
-            <a href='//my-plant.herokuapp.com/'>heroku</a>
+            <a href='//github.com/ahernas/Shop-myplants'>code</a>
+            <a href='//my-plant.herokuapp.com/'>live link</a>
           </div>
         </div>
 

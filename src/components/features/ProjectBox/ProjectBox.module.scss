@@ -14,8 +14,8 @@
 
     flex: 2;
     img {
-      width: 80%;
-      height: 80%;
+      width: 100%;
+      height: auto;
       padding: 10px;
       @extend %baseBorderShadow;
       @extend  %baseBorderImage;
@@ -23,17 +23,28 @@
   }
 
   .description {
+    font-size: 20px;
     width: 80%;
+    height: 100%;
     flex: 2;
     font-family: $font-text;
     font-weight: 900;
+    padding-left: 50px;
 
     .link {
       padding-top: $base-padding;
       display: flex;
       flex-direction: column;
-    a {
-    }
+      a {
+        text-decoration: none;
+        color: $color-top;
+        text-transform: uppercase;
+        font-family: $font-title;
+        &:hover {
+          color: $color-grey-text;
+        }
+
+      }
     }
   }
 
