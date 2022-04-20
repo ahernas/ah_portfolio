@@ -2,6 +2,7 @@
 
 .box {
   min-width: 220px;
+  min-height: 220px;
   margin: 10px;
   padding: $base-padding 35px;
   @extend %baseBorderImage;
@@ -10,16 +11,17 @@
   align-items: center;
   justify-content: center;
   @extend %baseBorderShadow;
+  background-color: $color-grey-medium;
 
 
   .icon {
-    font-size: 60px;
+    font-size: 100px;
     color: $color-grey-text;
   }
 
   .text {
     font-size: 18px;
-    font-family: $font-text;
+    font-family: $font-title;
     color: black;
     font-weight: 900;
     padding-top: $base-padding;

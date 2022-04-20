@@ -2,6 +2,8 @@
 
 .root {
   background-color: $color-grey-dark;
+  padding-bottom: 30px;
+  @extend %baseBorderShadow;
 }
 
 .headerBox {
@@ -24,7 +26,7 @@
     height: 100%;
 
     .title1 {
-      font-size: 80px;
+      font-size: 70px;
       color: $color-top;
       font-weight: 900;
       padding-bottom: $base-padding;
@@ -33,7 +35,7 @@
 
     .title2 {
       color: $color-top;
-      font-size: 55px;
+      font-size: 50px;
       font-family: $font-title;
       font-weight: 700;
       letter-spacing: 2px;
@@ -41,7 +43,7 @@
 
     .title3 {
       color: $color-grey-text;
-      font-size: 40px;
+      font-size: 35px;
       font-family: $font-title;
     }
   }

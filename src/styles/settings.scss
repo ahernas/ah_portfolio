@@ -37,7 +37,8 @@ $border-color-transition: 250ms;
 //SHADOWS
 %baseBorderShadow {
   border: 1px solid $color-grey-border;
-  box-shadow: 2px 4px 10px 4px $color-grey-text;}
+  box-shadow: 2px 4px 10px 4px $color-grey-text;
+}
 
 //HOVER ANIMATIONS
 %hoverAnimation {

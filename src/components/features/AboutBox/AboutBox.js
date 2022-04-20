@@ -5,10 +5,15 @@ import RunningHead from '../../common/RunningHead/RunningHead';
 
 const AboutBox = () => (
   <div className={styles.root}>
-    <div className={'container'}>
+    <div className={'container ' + styles.box}>
       <RunningHead className={styles.title} title={'about'}/>
       <div className={styles.aboutBox}>
-
+        <div className={styles.textBox}>
+          <div className={styles.description}>
+            I&#39;m a front-end developer based in Wroclaw, Poland. Since 2020, I have enjoyed writing code and solving problems.
+            I have successfully completed Bootcamp Web Developer Plus run by Kodilla. My dog help me with code every day.
+          </div>
+        </div>
         <div className={styles.imageWrapper}>
           <div className={styles.leftSide}>
             <img src='https://i.postimg.cc/1z5zRdtS/IMG-20220215-171231-min.jpg' alt='photo of dog'/>
@@ -19,12 +24,7 @@ const AboutBox = () => (
           </div>
         </div>
 
-        <div className={styles.textBox}>
-          <div className={styles.description}>
-            I&#39;m a front-end developer based in Wroclaw, Poland. Since 2020, I have enjoyed writing code and solving problems.
-            I have successfully completed Bootcamp Web Developer Plus run by Kodilla. My dog help me with code every day.
-          </div>
-        </div>
+
       </div>
     </div>
 
