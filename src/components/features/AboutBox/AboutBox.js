@@ -10,21 +10,21 @@ const AboutBox = () => (
       <div className={styles.aboutBox}>
         <div className={styles.textBox}>
           <div className={styles.description}>
-            I&#39;m a front-end developer based in Wroclaw, Poland. Since 2020, I have enjoyed writing code and solving problems.
+            <span>I&#39;m a front-end developer based in Wroclaw, Poland.</span> Since 2020, I have enjoyed writing code and solving problems.
             I have successfully completed Bootcamp Web Developer Plus run by Kodilla. My dog helps me with code every day.
           </div>
         </div>
-        <div className={styles.imageWrapper}>
-          <div className={styles.leftSide}>
-            <img src='https://i.postimg.cc/1z5zRdtS/IMG-20220215-171231-min.jpg' alt='photo of dog'/>
-            <img src='https://i.postimg.cc/k5BdpPG2/IMG-20220202-112842-min.jpg' alt='photo of girl and dog'/>
-          </div>
-          <div className={styles.rightSide}>
-            <img src='https://i.postimg.cc/52jF2DTJ/IMG-20220406-152236-min.jpg' alt="dog in front of the computer "/>
-          </div>
+        <div className={styles.imageBox}>
+          <img className={styles.image} src='https://i.postimg.cc/k5BdpPG2/IMG-20220202-112842-min.jpg' alt='fv'/>
         </div>
 
-
+      </div>
+      <div className={styles.photoWrapper}>
+        <img src='https://i.postimg.cc/1z5zRdtS/IMG-20220215-171231-min.jpg' alt='photo of dog'/>
+        <img src='https://i.postimg.cc/NFZtN8ZR/E2654-D88-9346-4-D59-9-A70-0-E248-A1-B24-EE-min.jpg' alt='photo of dog'/>
+        <img src='https://i.postimg.cc/nLVL92xL/IMG-20220421-160432-min.jpg' alt='photo of dog'/>
+        <img src='https://i.postimg.cc/T30dxbbv/IMG-20220327-171208-min.jpg' alt='photo of dog'/>
+        <img src='https://i.postimg.cc/fRzs8br2/IMG-20220421-160457-min.jpg' alt='photo of dog'/>
       </div>
     </div>
 
