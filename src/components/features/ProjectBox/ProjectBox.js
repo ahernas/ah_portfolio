@@ -3,6 +3,7 @@ import styles from './ProjectBox.module.scss';
 import RunningHead from '../../common/RunningHead/RunningHead';
 import ProjectMyPlants from '../../common/ProjectMyPlants/ProjectMyPlants';
 import ProjectPortfolio from '../../common/ProjectPortfolio/ProjectPortfolio';
+import ProjectToDoApp from '../../common/ProjectToDoApp/ProjectToDoApp';
 
 
 const ProjectBox = () => (
@@ -11,6 +12,7 @@ const ProjectBox = () => (
       <RunningHead title={'portfolio'}/>
       <ProjectPortfolio/>
       <ProjectMyPlants/>
+      <ProjectToDoApp/>
     </div>
   </div>
 );
