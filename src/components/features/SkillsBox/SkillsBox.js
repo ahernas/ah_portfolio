@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './SkillsBox.module.css';
+import styles from './SkillsBox.module.scss';
 
 import TitleBox from '../../common/TitleBox/TitleBox';
 import SkillBox from '../../common/SkillBox/SkillBox';
@@ -14,6 +14,7 @@ import {
   faReact,
   faSass, faSlack, faYarn,
 } from '@fortawesome/free-brands-svg-icons';
+import PhotoshopIcon from '../../common/SkillBox/PhotoshopIcon';
 
 
 
@@ -47,6 +48,7 @@ const SkillsBox = () => (
           <SkillBox iconName={faYarn} skillName={'yarn'}/>
           <SkillBox iconName={faJira} skillName={'jira'}/>
           <SkillBox iconName={faSlack} skillName={'slack'}/>
+          <PhotoshopIcon/>
 
         </div>
       </div>

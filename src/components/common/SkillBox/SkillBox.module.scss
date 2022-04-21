@@ -1,10 +1,9 @@
 @import "../../../styles/settings.scss";
 
 .box {
-  min-width: 220px;
-  min-height: 220px;
+  min-width: 150px;
+  min-height: 150px;
   margin: 10px;
-  padding: $base-padding 35px;
   @extend %baseBorderImage;
   display: flex;
   flex-direction: column;
@@ -13,14 +12,17 @@
   @extend %baseBorderShadow;
   background-color: $color-grey-medium;
 
-
+  img {
+    height: 60px;
+  }
   .icon {
-    font-size: 100px;
-    color: $color-grey-text;
+    font-size: 60px;
+    color: $color-top;
+    opacity: 0.8;
   }
 
   .text {
-    font-size: 18px;
+    font-size: 14px;
     font-family: $font-text;
     color: black;
     font-weight: 900;
