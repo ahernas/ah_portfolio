@@ -8,9 +8,9 @@ import ProjectPortfolio from '../../common/ProjectPortfolio/ProjectPortfolio';
 const ProjectBox = () => (
   <div className={styles.root}>
     <div className='container'>
-      <RunningHead className={styles.title} title={'portfolio'}/>
-      <ProjectMyPlants/>
+      <RunningHead title={'portfolio'}/>
       <ProjectPortfolio/>
+      <ProjectMyPlants/>
     </div>
   </div>
 );

@@ -5,7 +5,7 @@ const TopBar = () => (
   <div className={styles.root}>
     <div className={'container ' + styles.boxTopBar}>
       <div className={styles.logo}>
-        <img src='https://i.postimg.cc/CxynVnRJ/logo22.png' alt='logo'/>
+        <img src='https://i.postimg.cc/gcM4Wpbr/logo4.png' alt='logo'/>
       </div>
       <div className={'d-flex align-items-center ' + styles.list}>
         <ul>

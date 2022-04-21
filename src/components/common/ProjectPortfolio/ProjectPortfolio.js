@@ -8,7 +8,7 @@ const ProjectPortfolio = () => (
         Portfolio <br/> website design
       </div>
       <div className={'d-flex justify-content-end ' + styles.imageBox}>
-        <img src='https://i.postimg.cc/FRzdtsrC/laptop-pink-portfolio-min.png' alt='Image of project'/>
+        <img src='https://i.postimg.cc/zGpPVg9S/phone-pink-portfolio-min.png' alt='Image of project'/>
       </div>
 
     </div>
