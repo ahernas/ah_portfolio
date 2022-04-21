@@ -11,7 +11,7 @@ const AboutBox = () => (
         <div className={styles.textBox}>
           <div className={styles.description}>
             I&#39;m a front-end developer based in Wroclaw, Poland. Since 2020, I have enjoyed writing code and solving problems.
-            I have successfully completed Bootcamp Web Developer Plus run by Kodilla. My dog help me with code every day.
+            I have successfully completed Bootcamp Web Developer Plus run by Kodilla. My dog helps me with code every day.
           </div>
         </div>
         <div className={styles.imageWrapper}>
