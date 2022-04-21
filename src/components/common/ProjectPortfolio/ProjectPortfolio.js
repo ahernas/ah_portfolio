@@ -18,7 +18,7 @@ const ProjectPortfolio = () => (
       </div>
       <div className={styles.description}>
         <div className={styles.text}>
-          The project was created in order to build my own portfolio.<br/>Working tools: Git, GitHub, Heroku
+          The project was created in order to build my own portfolio.<br/>Working tools: Git, GitHub, Heroku <br/>
           Interface building library: React.
         </div>
         <div className={styles.link}>

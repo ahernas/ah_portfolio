@@ -26,7 +26,7 @@
     height: 100%;
 
     .title1 {
-      font-size: 70px;
+      font-size: 90px;
       color: $color-top;
       font-weight: 900;
       padding-bottom: $base-padding;
@@ -36,15 +36,20 @@
     .title2 {
       color: $color-top;
       font-size: 50px;
-      font-family: $font-title;
+      font-family: $font-text;
       font-weight: 700;
       letter-spacing: 2px;
+      text-transform: uppercase;
+
     }
 
     .title3 {
       color: $color-grey-text;
       font-size: 35px;
-      font-family: $font-title;
+      font-family: $font-text;
+      font-weight: 900;
+      text-transform: uppercase;
+      padding-top: $base-padding;
     }
   }
 }

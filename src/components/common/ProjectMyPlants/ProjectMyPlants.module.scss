@@ -1,7 +1,7 @@
 @import "../../../styles/settings.scss";
 
 .box {
-  padding-top: $base-padding-bottom;
+  padding: $base-padding-bottom 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
