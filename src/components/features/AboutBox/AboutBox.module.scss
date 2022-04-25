@@ -19,6 +19,7 @@
     span {
       font-size: 26px;
       padding-bottom: $base-padding;
+      //color: #ddb246;
     }
     @extend %font-text;
     align-items: center;
@@ -32,11 +33,11 @@
 
 .imageBox {
 
-  .image {
-    max-width: 400px;
-    padding: 5px;
-    @extend %baseBorderImage;
-    @extend %baseBorderShadow;
+  img {
+    max-width: 500px;
+    //padding: 5px;
+    //@extend %baseBorderImage;
+    //@extend %baseBorderShadow;
   }
 }
 
@@ -44,11 +45,11 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 20px;
+  padding-bottom: 50px;
 
   img {
     max-width: 18%;
-    padding: 5px;
+
     @extend %baseBorderImage;
     @extend %baseBorderShadow;
 

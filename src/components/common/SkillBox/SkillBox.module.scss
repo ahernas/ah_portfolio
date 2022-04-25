@@ -11,6 +11,17 @@
   justify-content: center;
   @extend %baseBorderShadow;
 
+  &:hover {
+    background-color: $color-top;
+    .icon {
+      font-size: 140px;
+      color: white;
+    }
+    .text {
+      display: none;
+    }
+  }
+
   img {
     height: 70px;
   }

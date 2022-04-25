@@ -4,7 +4,7 @@ import styles from './AboutBox.module.scss';
 import RunningHead from '../../common/RunningHead/RunningHead';
 
 const AboutBox = () => (
-  <div className={styles.root}>
+  <div id="about-box" className={styles.root}>
     <div className={'container ' + styles.box}>
       <RunningHead className={styles.title} title={'about'}/>
       <div className={styles.aboutBox}>
@@ -15,7 +15,7 @@ const AboutBox = () => (
           </div>
         </div>
         <div className={styles.imageBox}>
-          <img className={styles.image} src='https://i.postimg.cc/k5BdpPG2/IMG-20220202-112842-min.jpg' alt='fv'/>
+          <img src='https://i.postimg.cc/PJMw44Gp/image-girl6.png' alt='fv'/>
         </div>
 
       </div>

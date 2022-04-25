@@ -7,7 +7,7 @@ import ProjectToDoApp from '../../common/ProjectToDoApp/ProjectToDoApp';
 
 
 const ProjectBox = () => (
-  <div className={styles.root}>
+  <div id="project-box" className={styles.root}>
     <div className='container'>
       <RunningHead title={'portfolio'}/>
       <ProjectPortfolio/>

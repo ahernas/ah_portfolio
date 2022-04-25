@@ -5,21 +5,21 @@ const TopBar = () => (
   <div className={styles.root}>
     <div className={'container ' + styles.boxTopBar}>
       <div className={styles.logo}>
-        <img src='https://i.postimg.cc/gJXLrsyZ/logo5.png' alt='logo'/>
+        <img src='https://i.postimg.cc/R07gDdpS/projekt-logo-last-min.png' alt='logo'/>
       </div>
       <div className={'d-flex align-items-center ' + styles.list}>
         <ul>
           <li>
-            <a href="/">about</a>
+            <a href="#about-box">about</a>
           </li>
           <li>
-            <a href="/">portfolio</a>
+            <a href="#project-box">portfolio</a>
           </li>
           <li>
-            <a href="/">skills</a>
+            <a href="#skills-box">skills</a>
           </li>
           <li>
-            <a href="/">contact</a>
+            <a href="#contact">contact</a>
           </li>
         </ul>
       </div>

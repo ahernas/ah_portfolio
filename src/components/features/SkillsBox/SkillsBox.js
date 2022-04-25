@@ -16,10 +16,11 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import PhotoshopIcon from '../../common/SkillBox/PhotoshopIcon';
 
-
-
 const SkillsBox = () => (
-  <div className={styles.root}>
+  <div id="skills-box" className={styles.root}>
+    <div className={styles.lineBox}>
+      <img src="https://i.postimg.cc/h4mLgBk2/linie-ukos22-min.png" alt="green and yellow lines"/>
+    </div>
     <div className='container'>
       <RunningHead title={'skills'}/>
       <div className={styles.frontendSkills}>
@@ -53,6 +54,9 @@ const SkillsBox = () => (
         </div>
       </div>
 
+    </div>
+    <div className={styles.lineBox}>
+      <img src="https://i.postimg.cc/h4mLgBk2/linie-ukos22-min.png" alt="green and yellow lines"/>
     </div>
   </div>
 );
