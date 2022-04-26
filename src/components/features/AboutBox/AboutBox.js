@@ -15,7 +15,7 @@ const AboutBox = () => (
           </div>
         </div>
         <div className={styles.imageBox}>
-          <img src='https://i.postimg.cc/PJMw44Gp/image-girl6.png' alt='fv'/>
+          <img src='https://i.postimg.cc/2y0ZqqPM/IMG-20220202-112842-min.jpg' alt='fv'/>
         </div>
 
       </div>

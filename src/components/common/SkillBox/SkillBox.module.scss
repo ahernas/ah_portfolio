@@ -2,37 +2,35 @@
 
 .box {
   min-width: 220px;
-  min-height: 160px;
+  min-height: 200px;
   margin: 10px;
-  @extend %baseBorderImage;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  @extend %baseBorderImage;
   @extend %baseBorderShadow;
 
   &:hover {
-    background-color: $color-top;
+
     .icon {
-      font-size: 140px;
-      color: white;
+      height: 70px;
+      transition: 0.5s linear;
     }
     .text {
-      display: none;
+      display: flex;
+      font-size: 16px;
+
     }
   }
 
-  img {
-    height: 70px;
-  }
   .icon {
-    font-size: 70px;
+    height: 100px;
     color: $color-top;
-    opacity: 0.8;
   }
 
   .text {
-    font-size: 14px;
+    display: none;
     font-family: $font-text;
     color: black;
     font-weight: 900;
