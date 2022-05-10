@@ -34,7 +34,7 @@
 .imageBox {
 
   img {
-    max-width: 500px;
+    max-width: 400px;
     @extend %baseBorderShadow;
   }
 }
@@ -44,6 +44,7 @@
   flex-direction: row;
   justify-content: space-between;
   padding-bottom: 50px;
+  padding-top: 40px;
 
   img {
     max-width: 18%;

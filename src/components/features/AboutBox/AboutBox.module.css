@@ -3,49 +3,50 @@
   font-weight: bold;
 }
 
-.imageWrapper {
-  border: 1px solid #e6e6e6;
-  background-color: #ffffff;
-  border-radius: 10px;
-}
-
-.imageWrapper {
+.photoWrapper img, .imageBox img {
   border: 1px solid #e6e6e6;
   box-shadow: 2px 4px 10px 4px #a4a4a4;
 }
 
 .root {
   background-color: #fafafa;
-  padding-top: 80px;
+  padding: 80px 0;
+  box-shadow: inset 0 0 1em #dddddd;
 }
 
 .aboutBox {
   display: flex;
   flex-direction: row;
-  padding: 80px 0;
+  padding: 30px 0 80px 0;
 }
 .aboutBox .description {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: start;
   font-size: 20px;
   height: 100%;
-  padding-left: 50px;
+  padding-right: 50px;
+}
+.aboutBox .description span {
+  font-size: 26px;
+  padding-bottom: 24px;
 }
 
-.imageWrapper {
+.imageBox img {
+  max-width: 400px;
+}
+
+.photoWrapper {
   display: flex;
   flex-direction: row;
-  padding: 5px;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  padding-top: 40px;
 }
-.imageWrapper .leftSide img {
-  max-height: 200px;
-  margin: 2.5px;
-}
-.imageWrapper .rightSide img {
-  max-height: 400px;
-  margin: 5px;
+.photoWrapper img {
+  max-width: 18%;
 }
 
 /*# sourceMappingURL=AboutBox.module.css.map */

@@ -18,11 +18,20 @@ import PhotoshopIcon from '../../common/SkillBox/PhotoshopIcon';
 
 const SkillsBox = () => (
   <div id="skills-box" className={styles.root}>
-    <div className={styles.lineBox}>
-      <img src="https://i.postimg.cc/h4mLgBk2/linie-ukos22-min.png" alt="green and yellow lines"/>
-    </div>
+
     <div className='container'>
       <RunningHead title={'skills'}/>
+      <div className={styles.tools}>
+        <TitleBox text={'tools'}></TitleBox>
+        <div className={styles.iconBox}>
+          <SkillBox iconName={faGit} skillName={'git'}/>
+          <SkillBox iconName={faNpm} skillName={'npm'}/>
+          <SkillBox iconName={faYarn} skillName={'yarn'}/>
+          <SkillBox iconName={faJira} skillName={'jira'}/>
+          <SkillBox iconName={faSlack} skillName={'slack'}/>
+          <PhotoshopIcon/>
+        </div>
+      </div>
       <div className={styles.frontendSkills}>
         <TitleBox text={'front-end'}></TitleBox>
         <div className={styles.iconBox}>
@@ -41,23 +50,9 @@ const SkillsBox = () => (
           <SkillBox iconName={faEnvira} skillName={'mongo db'}/>
         </div>
       </div>
-      <div className={styles.tools}>
-        <TitleBox text={'tools'}></TitleBox>
-        <div className={styles.iconBox}>
-          <SkillBox iconName={faGit} skillName={'git'}/>
-          <SkillBox iconName={faNpm} skillName={'npm'}/>
-          <SkillBox iconName={faYarn} skillName={'yarn'}/>
-          <SkillBox iconName={faJira} skillName={'jira'}/>
-          <SkillBox iconName={faSlack} skillName={'slack'}/>
-          <PhotoshopIcon/>
-
-        </div>
-      </div>
 
     </div>
-    <div className={styles.lineBox}>
-      <img src="https://i.postimg.cc/h4mLgBk2/linie-ukos22-min.png" alt="green and yellow lines"/>
-    </div>
+
   </div>
 );
 

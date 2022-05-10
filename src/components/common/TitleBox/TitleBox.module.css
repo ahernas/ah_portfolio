@@ -6,9 +6,9 @@
   padding: 24px 0;
 }
 .box .line {
-  height: 2px;
+  height: 1px;
   width: 100%;
-  background-color: #a4a4a4;
+  background-color: #111111;
 }
 .box .text {
   width: 50%;
@@ -16,7 +16,7 @@
   justify-content: center;
   font-family: "RomanS";
   font-weight: 900;
-  font-size: 25px;
+  font-size: 26px;
   text-transform: uppercase;
 }
 
