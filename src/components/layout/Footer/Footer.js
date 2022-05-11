@@ -3,16 +3,15 @@ import PropTypes from 'prop-types';
 
 import styles from './Footer.module.scss';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faTwitter,
-  faFacebookF,
-  faYoutube,
-  faLinkedinIn,
-} from '@fortawesome/free-brands-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import {
+//   faTwitter,
+//   faFacebookF,
+//   faYoutube,
+//   faLinkedinIn,
+// } from '@fortawesome/free-brands-svg-icons';
 
-
-const Footer = ({ }) => (
+const Footer = () => (
   <footer className={styles.root}>
 
     <div className={styles.bottomBar}>

@@ -8,13 +8,13 @@ const ProjectToDoApp = () => (
         to-do app <br/> website
       </div>
       <div className={'d-flex justify-content-end ' + styles.imageBox}>
-        <img src='https://i.postimg.cc/hGSj6dSN/laptop-green-todoapp-min.png' alt='Image of project'/>
+        <img src='https://i.postimg.cc/hGSj6dSN/laptop-green-todoapp-min.png' alt='View of project'/>
       </div>
 
     </div>
     <div className={styles.box}>
       <div className={'d-flex justify-content-start ' + styles.imageBox}>
-        <img src='https://i.postimg.cc/CKTqr1tq/laptop-green-todoapp2-min.png' alt='Image of project'/>
+        <img src='https://i.postimg.cc/CKTqr1tq/laptop-green-todoapp2-min.png' alt='View of project'/>
       </div>
       <div className={styles.description}>
         <div className={styles.text}>

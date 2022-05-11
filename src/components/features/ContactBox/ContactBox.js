@@ -28,7 +28,7 @@ const ContactBox = () => (
           </a>
         </div>
         <div className={styles.image}>
-          <img src='https://i.postimg.cc/g2W2XHYL/image-girl-v-contact-min.png'/>
+          <img src='https://i.postimg.cc/g2W2XHYL/image-girl-v-contact-min.png' alt="view of cartoon girl"/>
         </div>
       </div>
     </div>

@@ -8,13 +8,13 @@ const ProjectMyPlants = () => (
         My plants <br/> Shop website design
       </div>
       <div className={'d-flex justify-content-end ' + styles.imageBox}>
-        <img src='https://i.postimg.cc/3wBXgxcs/phone-orange-min.png' alt='Image of project'/>
+        <img src='https://i.postimg.cc/3wBXgxcs/phone-orange-min.png' alt='View of project'/>
       </div>
 
     </div>
     <div className={styles.box}>
       <div className={'d-flex justify-content-start ' + styles.imageBox}>
-        <img src='https://i.postimg.cc/3Ny25Cxh/laptop-orange-min.png' alt='Image of project'/>
+        <img src='https://i.postimg.cc/3Ny25Cxh/laptop-orange-min.png' alt='View of project'/>
       </div>
       <div className={styles.description}>
         <div className={styles.text}>
