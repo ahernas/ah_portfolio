@@ -13,10 +13,10 @@ const TopBar = () => (
             <a href="#about-box">about</a>
           </li>
           <li>
-            <a href="#project-box">portfolio</a>
+            <a href="#skills-box">skills</a>
           </li>
           <li>
-            <a href="#skills-box">skills</a>
+            <a href="#project-box">portfolio</a>
           </li>
           <li>
             <a href="#contact">contact</a>

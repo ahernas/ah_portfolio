@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"ContactBox.module.css"}
+{"version":3,"sourceRoot":"","sources":["ContactBox.module.scss","../../../styles/settings.scss"],"names":[],"mappings":"AACA;EACE;EACA;EACA,gBCFoB;;ADIpB;EACE;EACA;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA,eCfgB;EDgBhB,gBCjBS;EDkBT;EACA,OCfM;;ADkBJ;EACE;;AAMN;EACE;EACA,eC9BgB;;ADkClB;EACE","file":"ContactBox.module.css"}

@@ -3,6 +3,12 @@
   font-weight: bold;
 }
 
+.imageBox img {
+  border: 1px solid #e6e6e6;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
 .photoWrapper img, .imageBox img {
   border: 1px solid #e6e6e6;
   box-shadow: 2px 4px 10px 4px #a4a4a4;
@@ -36,6 +42,7 @@
 
 .imageBox img {
   max-width: 400px;
+  padding: 10px;
 }
 
 .photoWrapper {

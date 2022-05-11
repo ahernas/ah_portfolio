@@ -1,5 +1,11 @@
 .root {
-  background-color: #f2f3f5;
+  border: 1px solid #e6e6e6;
+  box-shadow: 2px 4px 10px 4px #a4a4a4;
+}
+
+.root {
+  background-color: #e6e6e6;
+  padding-bottom: 30px;
 }
 
 .headerBox {
@@ -20,7 +26,7 @@
   height: 100%;
 }
 .headerBox .textBox .title1 {
-  font-size: 80px;
+  font-size: 90px;
   color: #111111;
   font-weight: 900;
   padding-bottom: 24px;
@@ -28,15 +34,19 @@
 }
 .headerBox .textBox .title2 {
   color: #111111;
-  font-size: 55px;
-  font-family: "MS Reference Sans Serif";
+  font-size: 50px;
+  font-family: "RomanS";
   font-weight: 700;
   letter-spacing: 2px;
+  text-transform: uppercase;
 }
 .headerBox .textBox .title3 {
   color: #a4a4a4;
-  font-size: 40px;
-  font-family: "MS Reference Sans Serif";
+  font-size: 35px;
+  font-family: "RomanS";
+  font-weight: 900;
+  text-transform: uppercase;
+  padding-top: 24px;
 }
 
 /*# sourceMappingURL=Header.module.css.map */
