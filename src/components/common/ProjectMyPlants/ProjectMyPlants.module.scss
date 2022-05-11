@@ -51,3 +51,27 @@
     font-size: 60px;
   }
 }
+
+@media (max-width: 1000px) {
+
+  .box {
+    padding: $base-padding 0;
+    flex-direction: column;
+
+    .name {
+      font-size: 50px;
+      padding: $base-padding-bottom 0;
+    }
+
+    .imageBox {
+      padding-top: $base-padding-bottom;
+    }
+
+    .description {
+      width: 100%;
+      padding-top: $base-padding-bottom;
+      padding-left: $base-padding;
+    }
+  }
+
+}
