@@ -26,7 +26,7 @@
   height: 100%;
 }
 .headerBox .textBox .title1 {
-  font-size: 90px;
+  font-size: 50px;
   color: #111111;
   font-weight: 900;
   padding-bottom: 24px;
@@ -47,6 +47,54 @@
   font-weight: 900;
   text-transform: uppercase;
   padding-top: 24px;
+}
+
+@media (max-width: 1000px) {
+  .headerBox .imageBox {
+    display: flex;
+    align-items: center;
+  }
+  .headerBox .imageBox img {
+    max-height: 400px;
+  }
+  .headerBox .textBox .title1 {
+    font-size: 35px;
+  }
+  .headerBox .textBox .title2 {
+    font-size: 40px;
+  }
+  .headerBox .textBox .title3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .headerBox {
+    flex-direction: column-reverse;
+  }
+  .headerBox .imageBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .headerBox .imageBox img {
+    max-height: 300px;
+  }
+  .headerBox .textBox {
+    padding-left: 24px;
+  }
+  .headerBox .textBox .title1 {
+    font-size: 28px;
+    padding-bottom: 0;
+    padding-top: 24px;
+  }
+  .headerBox .textBox .title2 {
+    font-size: 40px;
+    padding-top: 24px;
+  }
+  .headerBox .textBox .title3 {
+    font-size: 20px;
+    padding-top: 24px;
+  }
 }
 
 /*# sourceMappingURL=Header.module.css.map */

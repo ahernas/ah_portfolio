@@ -26,7 +26,7 @@
     height: 100%;
 
     .title1 {
-      font-size: 90px;
+      font-size: 50px;
       color: $color-top;
       font-weight: 900;
       padding-bottom: $base-padding;
@@ -53,3 +53,69 @@
     }
   }
 }
+@media (max-width: 1000px) {
+
+  .headerBox {
+    .imageBox {
+        display: flex;
+      align-items: center;
+      img {
+        max-height: 400px;
+      }
+    }
+
+    .textBox {
+
+      .title1 {
+        font-size: 35px;
+      }
+
+      .title2 {
+        font-size: 40px;
+      }
+
+      .title3 {
+        font-size: 20px;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 800px) {
+
+  .headerBox {
+    flex-direction: column-reverse;
+
+    .imageBox {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        max-height: 300px;
+      }
+    }
+
+    .textBox {
+      padding-left: $base-padding;
+
+      .title1 {
+        font-size: 28px;
+        padding-bottom: 0;
+        padding-top: $base-padding;
+      }
+
+      .title2 {
+        font-size: 40px;
+        padding-top: $base-padding;
+      }
+
+      .title3 {
+        font-size: 20px;
+        padding-top: $base-padding;
+      }
+    }
+  }
+
+}
+
