@@ -34,4 +34,4 @@ fi
 
 echo "Kubernetes context: $(kubectl --kubeconfig $CONFIG config current-context)"
 
-kubectl --kubeconfig ${CONFIG} -n ${NAMESPACE} set image deployment/ah_portfolio nginx=${CI_REGISTRY_IMAGE}/web:${CI_BUILD_REF}
+kubectl --kubeconfig ${CONFIG} -n ${NAMESPACE} set image deployment/ah-portfolio nginx=${CI_REGISTRY_IMAGE}/web:${CI_BUILD_REF}
