@@ -30,12 +30,8 @@ if [ "${CI_BUILD_REF_NAME}" = "master" ]; then
   CONFIG="${HOME}/.kube/fymproduction/config"
   STAGE="production"
   NAMESPACE="hernas"
-else
-  CONFIG="${HOME}/.kube/fymstaging/config"
-  STAGE="staging"
-  NAMESPACE="hernas"
 fi
 
 echo "Kubernetes context: $(kubectl --kubeconfig $CONFIG config current-context)"
 
-kubectl --kubeconfig ${CONFIG} -n ${NAMESPACE} set image deployment/ah_portfolio ah_portfolio=${CI_REGISTRY_IMAGE}/ah_portfolio:${CI_BUILD_REF}
+kubectl --kubeconfig ${CONFIG} -n ${NAMESPACE} set image deployment/ah_portfolio nginx=${CI_REGISTRY_IMAGE}/web:${CI_BUILD_REF}
