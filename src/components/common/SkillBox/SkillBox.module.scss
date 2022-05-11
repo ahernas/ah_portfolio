@@ -38,3 +38,12 @@
     text-transform: uppercase;
   }
 }
+
+@media (max-width: 770px) {
+
+  .box {
+    .text {
+      display: flex;
+    }
+  }
+}

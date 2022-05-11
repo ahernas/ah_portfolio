@@ -39,4 +39,10 @@
   text-transform: uppercase;
 }
 
+@media (max-width: 770px) {
+  .box .text {
+    display: flex;
+  }
+}
+
 /*# sourceMappingURL=SkillBox.module.css.map */

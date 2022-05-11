@@ -20,4 +20,11 @@
   text-transform: uppercase;
 }
 
+@media (max-width: 992px) {
+  .box .text {
+    padding: 0 10px;
+    font-size: 20px;
+  }
+}
+
 /*# sourceMappingURL=TitleBox.module.css.map */
