@@ -47,3 +47,34 @@
     }
   }
 }
+
+@media (max-width: 600px) {
+  .box {
+    flex-direction: column-reverse;
+    
+    .text {
+      padding-left: $base-padding;
+      font-size: 30px;
+
+      a {
+        flex-direction: row-reverse;
+      }
+      .link {
+        font-size: 12px;
+        padding-left: $base-padding;
+        }
+    }
+
+    .image {
+      display: flex;
+      justify-content: center;
+
+      img {
+        max-height: 300px;
+        padding-bottom: $base-padding;
+      }
+    }
+
+
+  }
+}

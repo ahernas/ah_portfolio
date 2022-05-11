@@ -58,3 +58,12 @@
     height: 80%;
   }
 }
+
+@media (max-width: 770px) {
+
+  .boxTopBar {
+    .list {
+      display: none !important;
+    }
+  }
+}

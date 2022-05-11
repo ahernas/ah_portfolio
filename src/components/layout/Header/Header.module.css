@@ -58,7 +58,7 @@
     max-height: 400px;
   }
   .headerBox .textBox .title1 {
-    font-size: 35px;
+    font-size: 48px;
   }
   .headerBox .textBox .title2 {
     font-size: 40px;
@@ -67,7 +67,7 @@
     font-size: 20px;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 770px) {
   .headerBox {
     flex-direction: column-reverse;
   }
@@ -83,7 +83,7 @@
     padding-left: 24px;
   }
   .headerBox .textBox .title1 {
-    font-size: 28px;
+    font-size: 38px;
     padding-bottom: 0;
     padding-top: 24px;
   }

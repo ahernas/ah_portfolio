@@ -67,7 +67,7 @@
     .textBox {
 
       .title1 {
-        font-size: 35px;
+        font-size: 48px;
       }
 
       .title2 {
@@ -82,7 +82,7 @@
 
 }
 
-@media (max-width: 800px) {
+@media (max-width: 770px) {
 
   .headerBox {
     flex-direction: column-reverse;
@@ -100,7 +100,7 @@
       padding-left: $base-padding;
 
       .title1 {
-        font-size: 28px;
+        font-size: 38px;
         padding-bottom: 0;
         padding-top: $base-padding;
       }

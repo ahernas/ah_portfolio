@@ -58,9 +58,19 @@
     padding: $base-padding 0;
     flex-direction: column;
 
+    .imageBox {
+      img {
+        width: auto;
+        height: 250px;
+        padding: 10px;
+      }
+    }
+
     .name {
-      font-size: 50px;
-      padding: $base-padding-bottom 0;
+      width: 100%;
+      font-size: 40px;
+      padding-top: $base-padding-bottom;
+      padding-left: $base-padding;
     }
 
     .imageBox {
@@ -68,6 +78,7 @@
     }
 
     .description {
+      font-size: 14px;
       width: 100%;
       padding-top: $base-padding-bottom;
       padding-left: $base-padding;
