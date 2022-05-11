@@ -1,0 +1,10 @@
+release:
+  stage: release
+  only:
+    - master
+    - mh/deployment
+  script:
+    - ./ci/release.sh
+
+stages:
+  - release
