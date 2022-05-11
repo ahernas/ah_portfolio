@@ -33,10 +33,27 @@
   padding-right: 50px;
 }
 .box .image img {
-  max-height: 600px;
+  max-height: 500px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
+  .box .text {
+    font-size: 25px;
+  }
+  .box .text a {
+    text-align: end;
+    padding-right: 0;
+  }
+  .box .text .link {
+    font-size: 16px;
+    padding-left: 24px;
+  }
+  .box .image img {
+    max-height: 300px;
+    padding-bottom: 24px;
+  }
+}
+@media (max-width: 770px) {
   .box {
     flex-direction: column-reverse;
   }
@@ -48,7 +65,7 @@
     flex-direction: row-reverse;
   }
   .box .text .link {
-    font-size: 12px;
+    font-size: 16px;
     padding-left: 24px;
   }
   .box .image {

@@ -43,15 +43,41 @@
   .image {
 
     img {
-      max-height: 600px;
+      max-height: 500px;
     }
   }
 }
+@media (max-width: 1000px) {
+  .box {
+    .text {
+      font-size: 25px;
 
-@media (max-width: 600px) {
+      a {
+        text-align: end;
+        padding-right: 0;
+      }
+
+      .link {
+        font-size: 16px;
+        padding-left: $base-padding;
+      }
+    }
+
+    .image {
+      img {
+        max-height: 300px;
+        padding-bottom: $base-padding;
+      }
+    }
+
+  }
+
+}
+
+@media (max-width: 770px) {
   .box {
     flex-direction: column-reverse;
-    
+
     .text {
       padding-left: $base-padding;
       font-size: 30px;
@@ -60,7 +86,7 @@
         flex-direction: row-reverse;
       }
       .link {
-        font-size: 12px;
+        font-size: 16px;
         padding-left: $base-padding;
         }
     }

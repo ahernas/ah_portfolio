@@ -66,6 +66,7 @@
   .aboutBox {
     flex-direction: column;
     justify-content: space-around;
+    padding-bottom: 50px;
   }
   .aboutBox .description {
     padding-left: 24px;
@@ -76,7 +77,7 @@
   }
 
   .imageBox {
-    padding-top: 40px;
+    padding-top: 50px;
     display: flex;
     justify-content: center;
   }

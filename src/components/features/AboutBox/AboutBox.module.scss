@@ -58,12 +58,14 @@
 }
 
 @media (max-width: 1000px) {
+
 .root {
   padding: 40px 0;
 }
   .aboutBox {
     flex-direction: column;
     justify-content: space-around;
+    padding-bottom: $base-padding-bottom;
 
     .description {
       padding-left: $base-padding;
@@ -76,7 +78,7 @@
   }
 
   .imageBox {
-    padding-top: 40px;
+    padding-top: $base-padding-bottom;
     display: flex;
     justify-content: center;
 
