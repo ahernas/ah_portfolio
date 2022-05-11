@@ -1,0 +1,9 @@
+release:
+  stage: release
+  only:
+    - master
+  script:
+    - ./ci/release.sh
+
+stages:
+  - release
