@@ -1,9 +1,16 @@
 .boxTitle {
   padding: 0;
   font-family: "MS Reference Sans Serif";
-  font-size: 70px;
-  font-weight: 900;
+  font-size: 90px;
+  font-weight: bold;
   letter-spacing: -3px;
+}
+
+@media (max-width: 1000px) {
+  .boxTitle {
+    font-size: 60px;
+    padding-left: 24px;
+  }
 }
 
 /*# sourceMappingURL=RunningHead.module.css.map */

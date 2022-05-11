@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["RunningHead.module.scss","../../../styles/settings.scss"],"names":[],"mappings":"AAEA;EACE;EACA,aCaW;EDZX;EACA;EACA","file":"RunningHead.module.css"}
+{"version":3,"sourceRoot":"","sources":["RunningHead.module.scss","../../../styles/settings.scss"],"names":[],"mappings":"AAEA;EACE;EACA,aCcW;EDbX;EACA;EACA;;;AAGF;EAEE;IACE;IACA,cCbW","file":"RunningHead.module.css"}

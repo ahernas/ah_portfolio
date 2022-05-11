@@ -10,8 +10,8 @@
     flex: 2;
     img {
       width: auto;
-      height: 500px;
-      padding: 10px;
+      height: 450px;
+      padding: 20px;
       @extend %baseBorderShadow;
       @extend  %baseBorderImage;
     }

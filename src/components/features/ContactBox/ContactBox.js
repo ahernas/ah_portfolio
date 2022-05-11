@@ -6,7 +6,7 @@ import {
   faGithub,
   faLinkedinIn,
 } from '@fortawesome/free-brands-svg-icons';
-import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
+import {faEnvelope, faFile} from '@fortawesome/free-solid-svg-icons';
 
 const ContactBox = () => (
   <div id="contact" className={styles.root}>
@@ -19,12 +19,16 @@ const ContactBox = () => (
             <FontAwesomeIcon className={styles.icon} icon={faLinkedinIn}/>
           </a>
           <a href='//linkedin.com/in/anna-hernas/'>
-            <div className={styles.link}>a@hern.as</div>
-            <FontAwesomeIcon className={styles.icon} icon={faEnvelope}/>
-          </a>
-          <a href='//linkedin.com/in/anna-hernas/'>
             <div className={styles.link}>https://github.com/ahernas</div>
             <FontAwesomeIcon className={styles.icon} icon={faGithub}/>
+          </a>
+          <a href='//linkedin.com/in/anna-hernas/'>
+            <div className={styles.link}>Curriculum Vitae</div>
+            <FontAwesomeIcon className={styles.icon} icon={faFile}/>
+          </a>
+          <a href="mailto:web.a@hern.as">
+            <div className={styles.link}>a@hern.as</div>
+            <FontAwesomeIcon className={styles.icon} icon={faEnvelope}/>
           </a>
         </div>
         <div className={styles.image}>

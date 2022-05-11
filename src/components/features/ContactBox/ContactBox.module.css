@@ -1,5 +1,5 @@
 .root {
-  padding: 80px 0;
+  padding-top: 80px;
 }
 
 .box {
@@ -27,7 +27,9 @@
   color: #ddb246;
 }
 .box .text .link {
-  font-size: 28px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
   padding-right: 50px;
 }
 .box .image img {

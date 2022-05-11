@@ -19,7 +19,6 @@
     span {
       font-size: 26px;
       padding-bottom: $base-padding;
-      //color: #ddb246;
     }
     @extend %font-text;
     align-items: center;
@@ -35,7 +34,7 @@
 
   img {
     max-width: 400px;
-    padding: 10px;
+    padding: 20px;
     @extend %baseBorderShadow;
     @extend  %baseBorderImage;
   }
@@ -43,13 +42,59 @@
 
 .photoWrapper {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
   padding-bottom: 50px;
   padding-top: 40px;
 
   img {
-    max-width: 18%;
+    max-width: 200px;
+    padding: 10px;
     @extend %baseBorderShadow;
+    @extend  %baseBorderImage;
+
   }
 }
+
+@media (max-width: 1000px) {
+.root {
+  padding: 40px 0;
+}
+  .aboutBox {
+    flex-direction: column;
+    justify-content: space-around;
+
+    .description {
+      padding-left: $base-padding;
+      font-size: 16px;
+      span {
+        font-size: 22px;
+
+      }
+    }
+  }
+
+  .imageBox {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+
+    img {
+      max-width: 300px;
+      padding: 10px;
+    }
+  }
+
+  .photoWrapper {
+    justify-content: center;
+    padding-top: 0;
+
+    img {
+      width: 150px;
+      padding: 2px;
+      margin: 10px;
+    }
+  }
+  }
+

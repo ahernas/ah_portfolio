@@ -7,3 +7,11 @@
   font-weight: bold;
   letter-spacing: -3px;
 }
+
+@media (max-width: 1000px) {
+
+  .boxTitle {
+    font-size: 60px;
+    padding-left: $base-padding;
+  }
+}
