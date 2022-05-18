@@ -2,9 +2,13 @@
 
 .root {
   padding-top: 80px;
+
+  .box {
+    padding: 0 50px;
+  }
 }
 
-.box {
+.boxContact {
   display: flex;
   flex-direction: row;
   padding-bottom: $base-padding-bottom;
@@ -48,7 +52,13 @@
   }
 }
 @media (max-width: 1000px) {
-  .box {
+  .root {
+    .box {
+      padding: 0;
+    }
+  }
+
+  .boxContact {
     .text {
       font-size: 25px;
 
@@ -75,7 +85,7 @@
 }
 
 @media (max-width: 770px) {
-  .box {
+  .boxContact {
     flex-direction: column-reverse;
 
     .text {

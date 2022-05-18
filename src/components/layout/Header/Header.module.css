@@ -1,10 +1,11 @@
 .root {
-  border: 1px solid #e6e6e6;
-  box-shadow: 2px 4px 10px 4px #a4a4a4;
+  box-shadow: 2px 4px 10px 4px #dddddd;
+  background-color: #ffffff;
+  border-radius: 10px;
 }
 
 .root {
-  background-color: #e6e6e6;
+  background-color: white;
   padding-bottom: 30px;
 }
 
@@ -13,10 +14,15 @@
   flex: 1;
   flex-direction: row;
   justify-content: space-around;
-  height: 600px;
+  height: 570px;
+}
+.headerBox .imageBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .headerBox .imageBox img {
-  max-height: 600px;
+  max-height: 500px;
 }
 .headerBox .textBox {
   display: flex;
@@ -26,15 +32,16 @@
   height: 100%;
 }
 .headerBox .textBox .title1 {
-  font-size: 50px;
+  font-size: 55px;
   color: #111111;
   font-weight: 900;
   padding-bottom: 24px;
   font-family: "MS Reference Sans Serif";
+  text-shadow: -0.5px -0.5px 0 #111111, 0.5px -0.5px 0 #111111, -0.5px 0.5px 0 #111111, 0.5px 0.5px 0 #111111;
 }
 .headerBox .textBox .title2 {
   color: #111111;
-  font-size: 50px;
+  font-size: 48px;
   font-family: "RomanS";
   font-weight: 700;
   letter-spacing: 2px;

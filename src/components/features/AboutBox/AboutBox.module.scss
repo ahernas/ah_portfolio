@@ -4,6 +4,10 @@
   background-color: $color-grey-light;
   padding: 80px 0;
   box-shadow: inset 0 0 1em $color-grey-line;
+
+  .box {
+    padding: 0 50px;
+  }
 }
 
 
@@ -14,17 +18,19 @@
 
 
   .description {
+    font-family: $font-text;
     display: flex;
     flex-direction: column;
+    width: 80%;
     span {
-      font-size: 26px;
+      font-size: 22px;
       padding-bottom: $base-padding;
     }
     @extend %font-text;
     align-items: center;
     justify-content: center;
     text-align: start;
-    font-size: 20px;
+    font-size: 16px;
     height: 100%;
     padding-right: 50px;
   }
@@ -33,10 +39,8 @@
 .imageBox {
 
   img {
-    max-width: 400px;
-    padding: 20px;
-    @extend %baseBorderShadow;
-    @extend  %baseBorderImage;
+    max-width: 380px;
+
   }
 }
 
@@ -50,9 +54,9 @@
 
   img {
     max-width: 200px;
-    padding: 10px;
-    @extend %baseBorderShadow;
-    @extend  %baseBorderImage;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px 4px $color-grey-line;
 
   }
 }
@@ -61,6 +65,10 @@
 
 .root {
   padding: 40px 0;
+
+  .box {
+    padding: 0;
+  }
 }
   .aboutBox {
     flex-direction: column;
@@ -68,7 +76,8 @@
     padding-bottom: $base-padding-bottom;
 
     .description {
-      padding-left: $base-padding;
+      width: 100%;
+      padding: 0 40px;
       font-size: 16px;
       span {
         font-size: 22px;

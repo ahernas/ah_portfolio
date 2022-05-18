@@ -10,15 +10,15 @@ import {faEnvelope, faFile} from '@fortawesome/free-solid-svg-icons';
 
 const ContactBox = () => (
   <div id="contact" className={styles.root}>
-    <div className='container'>
+    <div className={'container ' + styles.box}>
       <RunningHead title={'contact'}/>
-      <div className={styles.box}>
+      <div className={styles.boxContact}>
         <div className={styles.text}>
-          <a href='//github.com/ahernas/'>
+          <a href='//linkedin.com/in/anna-hernas/'>
             <div className={styles.link}>linkedin.com/in/anna-hernas/</div>
             <FontAwesomeIcon className={styles.icon} icon={faLinkedinIn}/>
           </a>
-          <a href='//linkedin.com/in/anna-hernas/'>
+          <a href='//github.com/ahernas/'>
             <div className={styles.link}>https://github.com/ahernas</div>
             <FontAwesomeIcon className={styles.icon} icon={faGithub}/>
           </a>

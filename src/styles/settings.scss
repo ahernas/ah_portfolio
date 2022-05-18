@@ -14,7 +14,6 @@ $color-grey-line: #dddddd;
 
 //FONTS
 
-
 $font-text: "RomanS";
 $font-title: "MS Reference Sans Serif";
 
@@ -30,16 +29,15 @@ $border-color-transition: 250ms;
 
 //BORDER
 %baseBorderImage {
-  border: 1px solid $color-grey-border;
+  box-shadow: 2px 4px 10px 4px $color-grey-line;
   background-color: $color-white;
   border-radius: 10px;
 }
-
-//SHADOWS
-%baseBorderShadow {
-  border: 1px solid $color-grey-border;
-  box-shadow: 2px 4px 10px 4px $color-grey-text;
-}
+////SHADOWS
+//%baseBorderShadow {
+//  border: 1px solid $color-grey-border;
+//  box-shadow: 2px 4px 10px 4px $color-grey-text;
+//}
 
 //HOVER ANIMATIONS
 %hoverAnimation {
