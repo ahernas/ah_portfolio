@@ -19,7 +19,7 @@ import PhotoshopIcon from '../../common/SkillBox/PhotoshopIcon';
 const SkillsBox = () => (
   <div id="skills-box" className={styles.root}>
 
-    <div className='container'>
+    <div className={'container ' + styles.box}>
       <RunningHead title={'skills'}/>
       <div className={styles.tools}>
         <TitleBox text={'tools'}></TitleBox>

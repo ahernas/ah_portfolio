@@ -1,9 +1,9 @@
 @import "../../../styles/settings.scss";
 
 .root {
-  background-color: $color-grey-border;
+  background-color: white;
   padding-bottom: 30px;
-  @extend %baseBorderShadow;
+  @extend %baseBorderImage;
 }
 
 .headerBox {
@@ -11,11 +11,14 @@
   flex: 1;
   flex-direction: row;
   justify-content: space-around;
-  height: 600px;
+  height: 570px;
 
   .imageBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     img {
-    max-height: 600px;
+    max-height: 500px;
     }
   }
   .textBox {
@@ -26,16 +29,17 @@
     height: 100%;
 
     .title1 {
-      font-size: 50px;
+      font-size: 55px;
       color: $color-top;
       font-weight: 900;
       padding-bottom: $base-padding;
       font-family: $font-title;
+      text-shadow:  -0.5px -0.5px 0 $color-top, 0.5px -0.5px 0 $color-top, -0.5px 0.5px 0 $color-top, 0.5px 0.5px 0 $color-top;
     }
 
     .title2 {
       color: $color-top;
-      font-size: 50px;
+      font-size: 48px;
       font-family: $font-text;
       font-weight: 700;
       letter-spacing: 2px;

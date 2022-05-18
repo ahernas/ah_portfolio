@@ -10,15 +10,14 @@
     flex: 2;
     img {
       width: auto;
-      height: 450px;
+      height: 400px;
       padding: 20px;
-      @extend %baseBorderShadow;
       @extend  %baseBorderImage;
     }
   }
 
   .description {
-    font-size: 20px;
+    font-size: 18px;
     width: 80%;
     height: 100%;
     flex: 2;
@@ -31,6 +30,16 @@
       display: flex;
       flex-direction: column;
       a {
+        display: flex;
+        border-radius: 10px;
+        box-shadow: 2px 4px 10px 4px $color-grey-line;
+        //@extend %baseBorderShadow;
+        //@extend  %baseBorderImage;
+        justify-content: center;
+        padding: 20px;
+        width: 30%;
+        margin: 10px 0;
+        background-color: white;
         text-decoration: none;
         color: $color-top;
         text-transform: uppercase;
@@ -48,7 +57,7 @@
     text-transform: uppercase;
     font-family: $font-text;
     font-weight: 900;
-    font-size: 60px;
+    font-size: 50px;
   }
 }
 

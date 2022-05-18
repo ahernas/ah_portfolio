@@ -1,12 +1,7 @@
 .box .imageBox img {
-  border: 1px solid #e6e6e6;
+  box-shadow: 2px 4px 10px 4px #dddddd;
   background-color: #ffffff;
   border-radius: 10px;
-}
-
-.box .imageBox img {
-  border: 1px solid #e6e6e6;
-  box-shadow: 2px 4px 10px 4px #a4a4a4;
 }
 
 .box {
@@ -20,11 +15,11 @@
 }
 .box .imageBox img {
   width: auto;
-  height: 450px;
+  height: 400px;
   padding: 20px;
 }
 .box .description {
-  font-size: 20px;
+  font-size: 18px;
   width: 80%;
   height: 100%;
   flex: 2;
@@ -38,6 +33,14 @@
   flex-direction: column;
 }
 .box .description .link a {
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 2px 4px 10px 4px #dddddd;
+  justify-content: center;
+  padding: 20px;
+  width: 30%;
+  margin: 10px 0;
+  background-color: white;
   text-decoration: none;
   color: #111111;
   text-transform: uppercase;
@@ -51,7 +54,7 @@
   text-transform: uppercase;
   font-family: "RomanS";
   font-weight: 900;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 @media (max-width: 1000px) {
