@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './ContactBox.module.scss';
+import FooterImage from  '../../../assets/images/image_girl_v-contact-min.png';
 import RunningHead from '../../common/RunningHead/RunningHead';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -32,7 +33,7 @@ const ContactBox = () => (
           </a>
         </div>
         <div className={styles.image}>
-          <img src='https://i.postimg.cc/g2W2XHYL/image-girl-v-contact-min.png' alt="view of cartoon girl"/>
+          <img src={FooterImage} alt="view of cartoon girl"/>
         </div>
       </div>
     </div>

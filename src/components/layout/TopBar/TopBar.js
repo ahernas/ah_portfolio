@@ -1,11 +1,12 @@
 import React from 'react';
 import styles from './TopBar.module.scss';
+import LogoImage from '../../../assets/images/logoAH4.png';
 
 const TopBar = () => (
   <div className={styles.root}>
     <div className={'container ' + styles.boxTopBar}>
       <div className={styles.logo}>
-        <img src='https://i.postimg.cc/R07gDdpS/projekt-logo-last-min.png' alt='logo'/>
+        <img src={LogoImage} alt='logo'/>
       </div>
       <div className={'d-flex align-items-center ' + styles.list}>
         <ul>

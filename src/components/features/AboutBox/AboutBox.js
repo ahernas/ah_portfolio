@@ -1,5 +1,11 @@
 import React from 'react';
 import styles from './AboutBox.module.scss';
+import PhotoMain from '../../../assets/images/IMG_20220202_112842-min.jpg';
+import PhotoOne from '../../../assets/images/IMG_20220215_171231-min.jpg';
+import PhotoTwo from '../../../assets/images/E2654D88-9346-4D59-9A70-0E248A1B24EE-min.jpeg';
+import PhotoThree from '../../../assets/images/IMG_20220421_160432-min.jpg';
+import PhotoFour from '../../../assets/images/IMG_20220327_171208-min.jpg';
+import PhotoFive from '../../../assets/images/IMG_20220421_160457-min.jpg';
 
 import RunningHead from '../../common/RunningHead/RunningHead';
 
@@ -15,16 +21,16 @@ const AboutBox = () => (
           </div>
         </div>
         <div className={styles.imageBox}>
-          <img src='https://i.postimg.cc/2y0ZqqPM/IMG-20220202-112842-min.jpg' alt='view of girl with dog'/>
+          <img src={PhotoMain} alt='view of girl with dog'/>
         </div>
 
       </div>
       <div className={styles.photoWrapper}>
-        <img src='https://i.postimg.cc/1z5zRdtS/IMG-20220215-171231-min.jpg' alt='view of dog'/>
-        <img src='https://i.postimg.cc/NFZtN8ZR/E2654-D88-9346-4-D59-9-A70-0-E248-A1-B24-EE-min.jpg' alt='view of dog'/>
-        <img src='https://i.postimg.cc/nLVL92xL/IMG-20220421-160432-min.jpg' alt='view of dog'/>
-        <img src='https://i.postimg.cc/T30dxbbv/IMG-20220327-171208-min.jpg' alt='view of dog'/>
-        <img src='https://i.postimg.cc/fRzs8br2/IMG-20220421-160457-min.jpg' alt='view of dog'/>
+        <img src={PhotoOne} alt='view of dog'/>
+        <img src={PhotoTwo} alt='view of dog'/>
+        <img src={PhotoThree} alt='view of dog'/>
+        <img src={PhotoFour} alt='view of dog'/>
+        <img src={PhotoFive} alt='view of dog'/>
       </div>
     </div>
 

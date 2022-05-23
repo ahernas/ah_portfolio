@@ -1,5 +1,7 @@
 import React from 'react';
 import styles from '../ProjectMyPlants/ProjectMyPlants.module.scss';
+import PortfolioImagePhone from '../../../assets/images/phone_pink_portfolio2-min.png';
+import PortfolioImageLaptop from '../../../assets/images/laptop_pink_portfolio2-min.png';
 
 const ProjectPortfolio = () => (
   <div>
@@ -8,13 +10,13 @@ const ProjectPortfolio = () => (
         Portfolio <br/> website design
       </div>
       <div className={'d-flex justify-content-end ' + styles.imageBox}>
-        <img src='https://i.postimg.cc/zGpPVg9S/phone-pink-portfolio-min.png' alt='View of project'/>
+        <img src={PortfolioImagePhone} alt='View of project'/>
       </div>
 
     </div>
     <div className={styles.box}>
       <div className={'d-flex justify-content-start ' + styles.imageBox}>
-        <img src='https://i.postimg.cc/FRzdtsrC/laptop-pink-portfolio-min.png' alt='View of project'/>
+        <img src={PortfolioImageLaptop} alt='View of project'/>
       </div>
       <div className={styles.description}>
         <div className={styles.text}>
@@ -22,7 +24,7 @@ const ProjectPortfolio = () => (
           Interface building library: React.
         </div>
         <div className={styles.link}>
-          <a href='//github.com/ahernas/Shop-myplants'>code</a>
+          <a href='//github.com/ahernas/ah_portfolio'>code</a>
           <a href='//my-plant.herokuapp.com/'>live link</a>
         </div>
       </div>

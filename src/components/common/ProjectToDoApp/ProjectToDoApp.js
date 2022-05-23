@@ -1,4 +1,7 @@
 import React from 'react';
+import ToDoAppImageOne from '../../../assets/images/laptop_green_todoapp-min.png';
+import ToDoAppImageTwo from '../../../assets/images/laptop_green_todoapp2-min.png';
+
 import styles from '../ProjectMyPlants/ProjectMyPlants.module.scss';
 
 const ProjectToDoApp = () => (
@@ -8,13 +11,13 @@ const ProjectToDoApp = () => (
         to-do app <br/> website
       </div>
       <div className={'d-flex justify-content-end ' + styles.imageBox}>
-        <img src='https://i.postimg.cc/hGSj6dSN/laptop-green-todoapp-min.png' alt='View of project'/>
+        <img src={ToDoAppImageOne} alt='View of project'/>
       </div>
 
     </div>
     <div className={styles.box}>
       <div className={'d-flex justify-content-start ' + styles.imageBox}>
-        <img src='https://i.postimg.cc/CKTqr1tq/laptop-green-todoapp2-min.png' alt='View of project'/>
+        <img src={ToDoAppImageTwo} alt='View of project'/>
       </div>
       <div className={styles.description}>
         <div className={styles.text}>
