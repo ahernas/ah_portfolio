@@ -33,8 +33,6 @@
         display: flex;
         border-radius: 10px;
         box-shadow: 2px 4px 10px 4px $color-grey-line;
-        //@extend %baseBorderShadow;
-        //@extend  %baseBorderImage;
         justify-content: center;
         padding: 20px;
         width: 30%;
@@ -91,6 +89,20 @@
       width: 100%;
       padding-top: $base-padding-bottom;
       padding-left: $base-padding;
+    }
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .box {
+    .description {
+      .link {
+        a {
+          width: 50%;
+        }
+      }
     }
   }
 

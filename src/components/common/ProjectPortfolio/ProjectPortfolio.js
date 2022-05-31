@@ -25,7 +25,7 @@ const ProjectPortfolio = () => (
         </div>
         <div className={styles.link}>
           <a href='//github.com/ahernas/ah_portfolio'>code</a>
-          <a href='//my-plant.herokuapp.com/'>live link</a>
+          <a href='//anna.hern.as'>live link</a>
         </div>
       </div>
 
