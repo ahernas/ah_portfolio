@@ -85,6 +85,12 @@
 }
 
 @media (max-width: 770px) {
+
+  .root {
+    .box {
+      padding-left: 40px;
+    }
+  }
   .boxContact {
     flex-direction: column-reverse;
 
