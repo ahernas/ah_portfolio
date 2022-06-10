@@ -23,7 +23,7 @@ const ContactBox = () => (
             <div className={styles.link}>https://github.com/ahernas</div>
             <FontAwesomeIcon className={styles.icon} icon={faGithub}/>
           </a>
-          <a href='//linkedin.com/in/anna-hernas/'>
+          <a href='//drive.google.com/file/d/1VNdNpfJnEz9gl7Bf8-Lwg5aQJQdeuMNr/view?usp=sharing'>
             <div className={styles.link}>Curriculum Vitae</div>
             <FontAwesomeIcon className={styles.icon} icon={faFile}/>
           </a>
